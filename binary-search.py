@@ -16,5 +16,6 @@ def search(nums: List[int], target: int) -> int:
             high = mid -1           
         else: 
             low = mid + 1
-    return -1             
-            
+    return -1       
+
+print([search([1,7,10,15,30,40], 7)])            
